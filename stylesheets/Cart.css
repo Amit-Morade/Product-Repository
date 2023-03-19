@@ -1,0 +1,60 @@
+.cart {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 27px;
+  height: 27px;
+}
+
+.cart-count-container {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 15px;
+  top: -2px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  padding: 0 6px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  background-color: red;
+}
+
+.dialogue {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  padding-top: 20px;
+  scrollbar-width: 0;
+}
+
+.dialogue-body {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.dialogue-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.dialogue-footer button {
+  margin: 20px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=Cart.css.map */
