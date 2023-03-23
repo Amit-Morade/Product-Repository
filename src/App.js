@@ -1,23 +1,17 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Content from "./components/Content";
 import Navbar from "./components/Navbar";
-import ProductManagement from "./components/ProductManagement";
+import ProductDetail from "./components/ProductDetail";
 
 export default function App(){
-  const [cartCount, setCartCount] = useState(0);
-
-  function updateCartCount(clear=false){
-    if(clear) {
-      setCartCount(0);
-    }else {
-      setCartCount((currentCount) => (currentCount+1));
-    }
-    
-  }
-
-  return (
+  return(
     <div>
-      <Navbar cartCount={cartCount} clearCart={updateCartCount}/>
-      <ProductManagement productSelected={updateCartCount}/>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/about" element={<div>About Page</div>} />
+        <Route path="/product-detail/:id" element={<ProductDetail />} />
+      </Routes>
     </div>
   )
 }
