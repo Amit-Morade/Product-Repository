@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.61591442.css",
-    "main.js": "/react-gh-pages/static/js/main.7d325875.js",
-    "static/js/787.4c77b918.chunk.js": "/react-gh-pages/static/js/787.4c77b918.chunk.js",
-    "static/media/shopping-bag.png": "/react-gh-pages/static/media/shopping-bag.8e3433c1f346fa7279b8.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.61591442.css.map": "/react-gh-pages/static/css/main.61591442.css.map",
-    "main.7d325875.js.map": "/react-gh-pages/static/js/main.7d325875.js.map",
-    "787.4c77b918.chunk.js.map": "/react-gh-pages/static/js/787.4c77b918.chunk.js.map"
+    "main.css": "/Product-Repository/static/css/main.40f98fe1.css",
+    "main.js": "/Product-Repository/static/js/main.66d96c66.js",
+    "static/js/787.4c77b918.chunk.js": "/Product-Repository/static/js/787.4c77b918.chunk.js",
+    "static/media/shopping-bag.png": "/Product-Repository/static/media/shopping-bag.8e3433c1f346fa7279b8.png",
+    "index.html": "/Product-Repository/index.html",
+    "main.40f98fe1.css.map": "/Product-Repository/static/css/main.40f98fe1.css.map",
+    "main.66d96c66.js.map": "/Product-Repository/static/js/main.66d96c66.js.map",
+    "787.4c77b918.chunk.js.map": "/Product-Repository/static/js/787.4c77b918.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61591442.css",
-    "static/js/main.7d325875.js"
+    "static/css/main.40f98fe1.css",
+    "static/js/main.66d96c66.js"
   ]
 }
